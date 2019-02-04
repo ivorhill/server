@@ -34,9 +34,8 @@ $eventDispatcher->addListener(
 	function() {
 		// FIXME: no public API for these ?
 		\OCP\Util::addScript('oc-backbone-webdav');
-		\OCP\Util::addScript('systemtags/merged');
+		\OCP\Util::addScript('dist/systemtags');
 		\OCP\Util::addScript('systemtags', 'merged');
-		\OCP\Util::addStyle('systemtags');
 		\OCP\Util::addStyle('systemtags', 'systemtagsfilelist');
 	}
 );
